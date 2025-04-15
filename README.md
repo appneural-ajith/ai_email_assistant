@@ -27,7 +27,7 @@ and schedule events based on email content.
 4. **External Services**: Managed via `gmail_auth.py` (Gmail/Calendar) and `.env` (Slack).
 
 ### Diagram
-![alt text](diagram.jpg)
+![diagram](https://github.com/user-attachments/assets/ac28e650-89d5-4f45-b1af-9006156ed699)
 - Components: Gmail API → SQLite → LLM (BART/DistilBERT) → Actions (Calendar, Slack, Reply).
 
 
